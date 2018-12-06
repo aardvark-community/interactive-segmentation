@@ -1,1 +1,316 @@
-"Hello World" 
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=ISO-8859-15">
+<meta name="description" content="O-Snap: Optimization-Based Snapping for Modeling Architecture">
+		<meta http-equiv="cache-control" content="no-cache">
+		<meta http-equiv="pragma" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<meta name="keywords" content="surface reconstruction, geometric optimization, interactive modeling">
+<title>CoSMo: Intent-based Composition of Shader Modules</title>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script type="text/javascript" src="video/jwplayer.js"></script>
+
+
+</head>
+
+<body style="color: rgb(0, 0, 0); font-family: Helvetica,Arial,sans-serif; font:10pt; background-color: rgb(230, 230, 230);">
+<a style="font-family: Helvetica,Arial,sans-serif;" name="top"></a>
+<br>
+<div>
+<table class="shadow" style="background-color: rgb(255, 255, 255);"  align="center" cellpadding="10" cellspacing="50" width="800px" border="0">
+<tbody>
+<tr>
+<td style="text-align: center;">
+				<br>
+	
+        <h1>CoSMo: Intent-based Composition of Shader Modules</h1><br>
+        <div align="center">
+                <table style="text-align: center; width: 600px;" border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                <tr>
+                        <td style="text-align: center; width:100%;">
+                                <img src="raptors_shadow.jpg" width="600" alt="Point Data to Model" title="" border="0" />
+                        </td>
+                </tr>
+                </tbody>
+                </table>
+                <br><br>
+                <table style="text-align: center; width: 750px;" border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                <tr>
+                        <td style="text-align: center; width:20%;">
+                                <b><a href="https://www.cg.tuwien.ac.at/staff/GeorgHaaser.html">Georg Haaser<small><small><sup> 1 2</sup></small></small></a></b>
+                        </td>
+						<td style="text-align: center; width:20%;">
+                                <b><a href="https://www.vrvis.at/members/harald-steinlechner/">Harald Steinlechner<small><small><sup> 1</sup></small></small></a></b>
+                        </td>
+						<td style="text-align: center; width:20%;">
+                                <b>Michael May<small><small><sup> 1</sup></small></small></b>
+                        </td>
+                        <td style="text-align: center; width:22%;">
+                                <b><a href="http://www.vrvis.at/about/team/schwaerzler-michael">Michael Schw&auml;rzler<small><small><sup> 1</sup></small></small></a></b>
+                        </td>
+                        <td style="text-align: center; width:20%;">
+                                <b><a href="http://www.vrvis.at/about/team/maierhofer-stefan">Stefan Maierhofer<small><small><sup> 1</sup></small></small></a></b>
+                        </td>
+						<td style="text-align: center; width:20%;">
+                                <b><a href="https://www.cg.tuwien.ac.at/staff/RobertTobler.html">Robert F.Tobler<small><small><sup> 1</sup></small></small></a></b>
+                        </td>
+                </tr>
+                </tbody>
+                </table>
+                <p>
+                <table style="text-align: left; width:400px;" border="0" cellpadding="0" cellspacing="0">
+                <tbody>
+                    <tr>
+                        <td style="text-align: center; vertical-align:top; width:50%;">
+                            <b><a href="http://www.vrvis.at"><small><small><small><sup>1 </sup></small></small>VRVis Research Center</small></a></b>
+                        </td>
+                        <td style="text-align: center; vertical-align:top; width:50%;">
+                            <b><a href="http://www.tuwien.ac.at"><small><small><small><sup>2 </sup></small></small>Vienna University of Technology</small></a></b>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+        </div>
+
+        <br>
+        <div style="text-align: center;">
+        <br>
+        
+        	<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    				<tr><td><h2>Information</h2></td></tr>
+    				<tr><td>    
+                            <ul>
+                                <li> <i>Proceedings of International Conference on Computer Graphics Theory and Applications (Grapp 2014)</i>, 189-199</li>
+                                <li> Publication Type: <i>Conference Paper with Conference Talk</i></li>
+
+                                <li> <i>VISIGRAPP Selected Papers, Communications in Computer and Information Science</i>, 45-61</li>
+                                <li> Publication Type: <i>Extended Journal paper</i></li>
+
+                                <li> Year: <i>2014</i></li>
+                                <li> Keywords: <i>Scenegraph, Attribute Grammar, Rendering Engine, Domain-Specific-Languages, Incremental Evaluation</i></li>
+                            </ul>
+    				</td></tr>
+    			</table>
+    
+    			<p></p>
+    
+    			<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    				<tr><td><h2>Abstract</h2></td></tr>
+    				<tr><td>
+							<div align="justify">We propose a novel shader programming model which operates on intent-oriented shader modules instead of  specific programs for dedicated GPU rasterization pipeline stages. In constrast to existing pipeline shader frameworks, our system exposes a radically simplified pipeline, which we purposefully aligned with our basic intuition of shaders as per-primitive and per-pixel operations and compositions thereof.
+This simplicity lends itself to structure modules purely based on their intent, instead of dealing with structure enforced by specific versions of graphics APIs. Consequently, this offers great flexibility when it comes to reusing and combining modules with completely different semantics, or when targeting different graphics APIs. The simplicity and uniformity of our system also motivates automatic parameterization and simplification of shader programs as well as interesting interactive shader development and management techniques.</td>
+						</tr>
+					</table>
+    
+    			<p></p>
+    
+    			<!--<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    				<tr><td><h2>Result Images</h2></td></tr>
+						<tr>
+							<td width=20%><a href='results/01_townhall.png'><img src="img/01_townhall_resize.jpg" width="156" height="93" alt="" title="" border="0" /></a></td>
+						</tr>
+						<tr>
+							<td width=100% colspan=5><div align="justify"><br>blabla<div></td>
+						</tr>
+					</table>-->
+					
+					<p></p>
+	
+					<!--<table width="100%" border="0" cellspacing="2" cellpadding="2">
+				    <tr><td><h2>Videos</h2></td></tr>
+					  <tr><td>
+			   			<div id="container1">Loading the player ...</div>
+							<script type="text/javascript">
+								jwplayer("container1").setup({
+									'author': 'Murat Arikan + Michael Schwaerzler',
+									'description': 'O-Snap Main Video',
+									'title': 'O-Snap Main Video',
+									'image': 'video/preview1.png',
+									height: 640,
+									width: 800,
+									modes: [
+										{ 
+											type: "flash",
+											src: "video/player.swf",
+											config: {
+												file: "http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-main%20video.mp4.flv"
+											}
+										},
+										{ 
+											type: "html5",
+											config: {
+												file: "http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-main%20video.mp4"
+											}
+										}
+									]
+								});
+							</script>
+						</td></tr>
+				   	<tr><td><br><div align="justify">O-Snap main video, demonstrating the features of our new system.</td></tr>
+				   	<tr><td><br>
+				   			<div id="container2">Loading the player ...</div>
+								<script type="text/javascript">
+									jwplayer("container2").setup({
+										'author': 'Murat Arikan + Michael Schwaerzler',
+										'description': 'O-Snap Applications Video',
+										'title': 'O-Snap Applications Video',
+										'image': 'video/preview2.png',
+										height: 640,
+										width: 800,
+										modes: [
+										{ 
+											type: "flash",
+											src: "video/player.swf",
+											config: {
+												file: "http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-applications video.mp4.flv"
+											}
+										},
+										{ 
+											type: "html5",
+											config: {
+												file: "http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-applications%20video.mp4"
+											}
+										}
+									]
+									});
+								</script>
+						</td></tr>
+				   	<tr><td><br><div align="justify">O-Snap applications video, demonstrating further use cases.</td></tr>
+					</table>-->
+					<p></p>
+	
+	    		<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    				<tr><td><h2>Acknowledgements</h2></td></tr>
+    				<tr><td><div align="justify">
+    We would like to thank Manuel Wieser for providing
+    3D models, especially Eigi, The Dinosaur.
+    The competence center VRVis is funded by BMVIT,
+    BMWFJ, and City of Vienna (ZIT) within the scope
+    of COMET Competence Centers for Excellent Technologies.
+    The program COMET is managed by FFG.
+</div></td></tr>
+    			</table>
+					
+					<p></p>
+	            
+    			<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    				<tr><td><h2>Downloads</h2></td></tr>
+						<tr><td> 
+							<br><br>
+
+                               <table width='100%' border='0'>
+                                   <tr>
+
+
+                                       <td align='center' valign='top' width='180'><a href='paper-grapp.pdf'></a></td>
+                                       <td>
+                                           <a href='paper-grapp.pdf'>Paper (Draft)</a>: [9 MB]
+                                       </td>
+                                   </tr>
+						    	<!--tr>
+						    		<td align='center' valign='top' width='180'><a href=''><img src="img/pdf.gif" width="64" height="64" alt="" title="" border="0" /></td><td>
+						    		<a href='./notavailable><a>Paper (Low Resolution)</a>: [? MB] (not yet available)</td>
+						    	</tr-->
+									<tr>
+						    		<td align='center' valign='top' width='180'>&nbsp;</td>
+						    		<td><small>This is the authors preprint. The definitive version of the paper will be available at
+											<br>the <a href='https://www.computer.org/csdl/proceedings/grapp/2014/8078/00/07296051-abs.html' target=_blank>IEEE Computer Society</a>.</small></td>
+						    	</tr>
+								</table>
+
+                                <table width='100%' border='0'>
+						    	<tr>
+						    		<td align='center' valign='top' width='180'><a href='paper-ccis.pdf'></a></td><td>
+						    			<a href='paper-ccis.pdff'>Extended Journal Paper (Draft)</a>: [7 MB]</td>
+						    	</tr>
+						    	<!--tr>
+						    		<td align='center' valign='top' width='180'><a href=''><img src="img/pdf.gif" width="64" height="64" alt="" title="" border="0" /></td><td>
+						    		<a href='./notavailable><a>Paper (Low Resolution)</a>: [? MB] (not yet available)</td>
+						    	</tr-->
+									<tr>
+						    		<td align='center' valign='top' width='180'>&nbsp;</td>
+						    		<td><small>This is the authors preprint. The definitive version of the paper will be available at
+											<br>the <a href='https://link.springer.com/chapter/10.1007/978-3-319-25117-2_4' target=_blank>Springer</a>.</small></td>
+						    	</tr>
+								</table>
+								
+								<br>
+						    <br>
+						    <!--Additional Material:
+						    <br><br>
+						    <table width='100%' border='0'>
+						    	<tr>
+						    		<td align='center' valign='top' width='180'><a href='http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-main%20video.mp4'><img src="img/video.gif" width="64" height="64" alt="" title="" border="0" /></a></td><td>
+						    			<a href='http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-main%20video.mp4'>Main Video (mp4)</a>: [123 MB]</td>	
+						    	</tr>
+						    	<tr>
+						    		<td align='center' valign='top' width='180'><a href='http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-applications%20video.mp4'><img src="img/video.gif" width="64" height="64" alt="" title="" border="0" /></a></td><td>
+						    			<a href='http://www.cg.tuwien.ac.at/research/publications/2013/arikan-2013-osn/arikan-2013-osn-applications%20video.mp4'>Applications Video (mp4)</a>: [109 MB]</td>	
+						    	</tr>
+						    	<tr>
+						    		<td align='center' valign='top' width='180'><a href='results/arikan-2012-osn-resultImages.zip'><img src="img/file.gif" width="64" height="64" alt="" title="" border="0" /></td><td>
+						    			<a href='results/arikan-2012-osn-resultImages.zip'>Result Images (png, zipped)</a>: [18 MB]</td>
+						    	</tr>
+						    </table> -->
+						</td></tr>
+					</table> 
+        
+        	<p></p>
+        	
+        	<table width="100%" border="0" cellspacing="2" cellpadding="2">
+    				<tr><td><h2>Bibtex</h2></td></tr>
+  						<tr>
+      					<td class="border_all" style="text-align:left;">
+                            <pre style="font-size: 10px; text-align: left;">
+@inproceedings{DBLP:conf/grapp/HaaserSMSMT14,
+  author    = {Georg Haaser and
+               Harald Steinlechner and
+               Michael May and
+               Michael Schw{\"{a}}rzler and
+               Stefan Maierhofer and
+               Robert F. Tobler},
+  title     = {CoSMo: Intent-based Composition of Shader Modules},
+  booktitle = {{GRAPP}},
+  pages     = {189--199},
+  publisher = {SciTePress},
+  year      = {2014}
+}
+
+@inproceedings{DBLP:conf/visapp/HaaserSMSMT14,
+  author    = {Georg Haaser and
+               Harald Steinlechner and
+               Michael May and
+               Michael Schw{\"{a}}rzler and
+               Stefan Maierhofer and
+               Robert F. Tobler},
+  title     = {Semantic Composition of Language-Integrated Shaders},
+  booktitle = {{VISIGRAPP} (Selected Papers)},
+  series    = {Communications in Computer and Information Science},
+  volume    = {550},
+  pages     = {45--61},
+  publisher = {Springer},
+  year      = {2014}
+}
+									</pre>
+								</td>
+							</tr>
+    			</table>
+    		</div>
+        
+        <small><small>
+        |&nbsp;&nbsp;maintained by harald steinlechner &nbsp;&nbsp;|&nbsp;&nbsp; hs -at- vrvis.at &nbsp;&nbsp;|&nbsp;&nbsp; last update: 06.12.2018 &nbsp;&nbsp;|&nbsp;&nbsp;  <br>
+        </small></small>
+        <p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</body>
+</html> 
