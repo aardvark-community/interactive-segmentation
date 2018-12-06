@@ -1,0 +1,162 @@
+.border_top { 
+border-top : 2px solid #eeeeee; 
+} 
+
+.border_topleft { 
+border-top : 2px solid #eeeeee; 
+border-left : 2px solid #eeeeee; 
+border-radius : 10px; 
+} 
+
+.border_topright { 
+border-top : 2px solid #eeeeee; 
+border-right : 2px solid #eeeeee; 
+border-radius : 10px; 
+} 
+
+.border_topleftright { 
+border-top : 2px solid #eeeeee; 
+border-left : 2px solid #eeeeee; 
+border-right : 2px solid #eeeeee; 
+border-radius : 10px; 
+} 
+
+.border_all { 
+border-top : 2px solid #eeeeee; 
+border-left : 2px solid #eeeeee; 
+border-right : 2px solid #eeeeee; 
+border-bottom : 2px solid #eeeeee; 
+border-radius : 10px; 
+} 
+
+.row_year { 
+border-top : 2px solid #eeeeee; 
+border-left : 2px solid #eeeeee; 
+border-right : 2px solid #eeeeee; 
+background-color : #eeeeee; 
+border-radius : 10px; 
+} 
+
+.row_head { 
+border-top : 0 solid #eeeeee; 
+border-left : 0 solid #eeeeee; 
+border-right : 0 solid #eeeeee; 
+border-radius : 10px; 
+} 
+
+.frame { 
+border-top : 2px solid #eeeeee; 
+border-left : 2px solid #eeeeee; 
+border-right : 2px solid #eeeeee; 
+border-bottom : 2px solid #eeeeee; 
+} 
+
+.round_box {
+border-radius:          10px;
+-moz-border-radius:     10px;
+-webkit-border-radius:  10px;
+}
+
+.shadow {
+border:                 1px solid #808080;
+box-shadow:             0px 0px 10px 0px #808080;
+-moz-box-shadow:        0px 0px 10px 0px #808080;
+-webkit-box-shadow:     0px 0px 10px 0px #808080;
+}
+
+a { 
+color : #000000; 
+font-family : Arial, Helvetica, sans-serif; 
+text-decoration : none; 
+} 
+
+a:active { 
+color : #000000; 
+font-family : Arial, Helvetica, sans-serif; 
+text-decoration : underline; 
+} 
+
+a:hover { 
+color : #000000; 
+font-family : Arial, Helvetica, sans-serif; 
+text-decoration : underline; 
+} 
+
+a:visited { 
+color : rgb(50, 50, 75); 
+font-family : Arial, Helvetica, sans-serif; 
+} 
+
+a:link { 
+color : rgb(50, 50, 75); 
+font-family : Arial, Helvetica, sans-serif; 
+} 
+
+.papertitle { 
+font-family : Helvetica, Arial, sans-serif; 
+font-size : 10pt; 
+font-style : normal; 
+font-weight : bold; 
+color : rgb(50, 50, 50); 
+} 
+
+.papersubtitle { 
+font-family : Helvetica, Arial, sans-serif; 
+font-size : 10pt; 
+font-style : italic; 
+font-weight : normal; 
+color : rgb(0, 0, 0); 
+} 
+
+.paperauthor { 
+font-family : Helvetica, Arial, sans-serif; 
+font-size : 10pt; 
+font-style : normal; 
+font-weight : normal; 
+color : rgb(0, 0, 0); 
+} 
+
+.paperlink { 
+font-family : Helvetica, Arial, sans-serif; 
+font-size : 8pt; 
+font-style : normal; 
+font-weight : bold; 
+color : rgb(50, 50, 50); 
+} 
+
+.section { 
+font-family : Helvetica, Arial, sans-serif; 
+font-size : 14pt; 
+font-style : normal; 
+font-weight : bold; 
+color : rgb(50, 50, 50); 
+} 
+
+.subsection { 
+font-family : Helvetica, Arial, sans-serif; 
+font-size : 12pt; 
+font-style : normal; 
+font-weight : bold; 
+color : rgb(50, 50, 50); 
+} 
+
+.paperimg { 
+border : 0; 
+} 
+
+.paperimg_column { 
+text-align : center; 
+width : 202px; 
+min-width : 202px; 
+} 
+
+.paperinfo_column { 
+text-align : left; 
+vertical-align : middle; 
+width : 600px; 
+} 
+
+
+h1, h2, h3 { font: bold 1em Helvetica, Arial, sans-serif; }
+h1 { font-size: 1.4em; color: #65944A; }
+h2 { font-size: 1.1em; text-transform: uppercase; color: #65944A; }
